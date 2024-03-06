@@ -12,4 +12,24 @@
   <servlet-name>fir</servlet-name>
   <url-pattern>/first</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>c</servlet-name>
+  <servlet-class>car.Car</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>c</servlet-name>
+  <url-pattern>/car</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>addn</servlet-name>
+  <servlet-class>cal.AdditionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>addn</servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
